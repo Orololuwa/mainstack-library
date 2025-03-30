@@ -15,7 +15,7 @@ interface RadioDropdownProps {
   defaultSelectedOptions?: OptionType[];
   className?: string;
 }
-const RadioDropdown: React.FC<RadioDropdownProps> = ({
+export const RadioDropdown: React.FC<RadioDropdownProps> = ({
   options,
   onChange,
   defaultSelectedOptions = [],
@@ -120,5 +120,3 @@ const RadioDropdown: React.FC<RadioDropdownProps> = ({
     </div>
   );
 };
-
-export default RadioDropdown;

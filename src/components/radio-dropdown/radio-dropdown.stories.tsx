@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import RadioDropdown from ".";
+import { RadioDropdown } from ".";
 
 const meta: Meta<typeof RadioDropdown> = {
   title: "Components/RadioDropdown",

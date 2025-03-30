@@ -1,2 +1,5 @@
 import "./styles/index.css";
-export { Button } from "./components/button";
+
+export * from "./components/button";
+export * from "./components/radio-dropdown";
+export * from "./components/icons";
