@@ -82,8 +82,8 @@ const RadioDropdown: React.FC<RadioDropdownProps> = ({
         <button
           onClick={toggleDropdown}
           className={`w-full flex justify-between items-center px-4 py-3 transition-colors ${
-            isOpen ? "bg-white" : "bg-gray-50"
-          } border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-black`}
+            isOpen ? "bg-white" : "bg-gray-100"
+          } border border-gray-100 rounded-lg focus:outline-none focus:ring-2 focus:ring-black`}
         >
           <span className="w-[calc(100%-1.25rem)] text-left truncate whitespace-nowrap overflow-ellipsis">
             {selectedOptions.map((option) => option.label).join(", ")}
