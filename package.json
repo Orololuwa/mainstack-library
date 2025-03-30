@@ -1,0 +1,48 @@
+{
+  "name": "mainstack-library",
+  "version": "0.0.1",
+  "description": "component library for the mainstack frontend task",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c --bundleConfigAsCjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Orololuwa/mainstack-library.git"
+  },
+  "keywords": [
+    "mainstack"
+  ],
+  "author": "Orololuwa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Orololuwa/mainstack-library/issues"
+  },
+  "homepage": "https://github.com/Orololuwa/mainstack-library#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "react": "^19.1.0",
+    "rollup-plugin-dts": "^6.2.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.2.0",
+    "@types/react": "^19.0.12",
+    "class-variance-authority": "^0.7.1",
+    "react-icons": "^5.5.0",
+    "rollup": "^4.38.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tailwind-merge": "^3.0.2",
+    "tailwindcss": "^4.0.17"
+  }
+}
