@@ -5,14 +5,14 @@ import { AiOutlineLoading } from "react-icons/ai";
 
 const variants = {
   primary: "bg-primary text-white hover:bg-primary-hover border-primary",
-  secondary: "bg-gray-50 text-gray-700 hover:bg-gray-100 shadow-sm",
-  ghost: "bg-transparent text-gray-700 hover:bg-gray-100",
+  secondary: "bg-gray-50 text-gray-700 hover:bg-gray-100 border-gray-50",
+  ghost: "bg-transparent text-gray-700 hover:bg-gray-100 border-transparent",
 };
 
 const sizes = {
-  sm: "px-3 py-1.5 text-sm",
-  md: "px-5 py-2.5 text-base",
-  lg: "px-7 py-3.5 text-lg",
+  sm: "px-3 py-1 text-sm",
+  md: "px-5 py-2 text-base",
+  lg: "px-7 py-3 text-lg",
 };
 
 const baseStyles =
