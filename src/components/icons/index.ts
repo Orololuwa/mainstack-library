@@ -7,3 +7,8 @@ export * from "./logo";
 export * from "./menu";
 export * from "./notification";
 export * from "./revenue";
+export * from "./caret-down";
+export * from "./download";
+export * from "./arrow-up";
+export * from "./arrow-down";
+export * from "./close";
