@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { Apps } from "./apps";
+import { AppsIcon as Apps } from "./apps";
 
 const meta: Meta<typeof Apps> = {
   title: "Icons/Apps",
@@ -14,5 +14,7 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
-  args: {},
+  args: {
+    color: "#131316",
+  },
 };

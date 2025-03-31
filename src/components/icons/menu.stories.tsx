@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { Menu } from "./menu";
+import { MenuIcon as Menu } from "./menu";
 
 const meta: Meta<typeof Menu> = {
   title: "Icons/Menu",
@@ -14,5 +14,7 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
-  args: {},
+  args: {
+    color: "#131316",
+  },
 };

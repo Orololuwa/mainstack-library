@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { CRM } from "./crm";
+import { CRMIcon as CRM } from "./crm";
 
 const meta: Meta<typeof CRM> = {
   title: "Icons/CRM",
@@ -14,5 +14,7 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
-  args: {},
+  args: {
+    color: "#131316",
+  },
 };
