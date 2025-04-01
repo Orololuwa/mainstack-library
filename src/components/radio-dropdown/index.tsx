@@ -77,7 +77,6 @@ export const RadioDropdown: React.FC<RadioDropdownProps> = ({
 
   return (
     <div className={twMerge("w-full max-w-md", className)} ref={dropdownRef}>
-      <div className="text-lg font-medium mb-2">Transaction Status</div>
       <div className="relative">
         <button
           onClick={toggleDropdown}
