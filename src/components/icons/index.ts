@@ -12,3 +12,4 @@ export * from "./download";
 export * from "./arrow-up";
 export * from "./arrow-down";
 export * from "./close";
+export * from "./info";

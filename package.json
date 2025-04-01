@@ -1,6 +1,6 @@
 {
   "name": "mainstack-library",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "component library for the mainstack frontend task",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
