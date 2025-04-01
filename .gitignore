@@ -43,3 +43,4 @@ temp/
 .nuxt/
 .docz/
 *storybook.log
+storybook-static
